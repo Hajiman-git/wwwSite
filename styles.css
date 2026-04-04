@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', 'Monaco', monospace;
+    min-height: 100vh;
+    line-height: 1.7;
+    background-color: rgb(253, 238, 34);
+}
+
+header {
+    text-align: center;
+    padding: 40px 20px;
+    background: #1a0033;
+}
+
+header h1 { 
+    color: #00bbff;
+}
+
+header h2{
+
+    color: rgb(253, 238, 34);
+}
+
+.content-card {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap; 
+    margin-bottom: 50px;
+    margin-top: 30px;
+    padding: 0 20px;
+}
+
+.special-card {
+    width: 300px;
+    background: rgb(95, 94, 96);
+    padding: 20px;
+    border-radius: 15px;
+    border: 2px solid #00d9ff; 
+    text-align: center; 
+    transition: 0.3s; 
+}
+
+.card {
+    width: 300px;
+    background: rgb(89, 87, 90);
+    padding: 20px;
+    border-radius: 15px;
+    border: 2px solid #00d9ff; 
+    text-align: center; 
+    transition: 0.3s; 
+}
+
+
+.card:hover, .special-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 187, 255, 0.3);
+}
+
+
+.special-card {
+    border-color: #ff00ff;
+}
+
+.card-img, .special-card-img {
+    width: 100%;
+    border-radius: 10px; 
+    margin-bottom: 15px; 
+}
+
+
+.card-text, .special-card-text {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #00d9ff;
+}
+
+.card-text-text, .special-card-text-text {
+    margin: 10px 0;
+    font-size: 14px;
+    min-height: 60px;
+}
+
+.more, .special-more {
+    display: inline-block;
+    margin: 10px 0;
+    text-decoration: none;
+    color: rgb(235, 252, 3);
+    font-weight: bold;
+}
+
+.more:hover, .special-more:hover {
+    color: #00bbff;
+}
+
+.button, .special-button {
+    margin-top: 10px;
+}
+
+.button-btn, .special-button-btn {
+    background: #1a0033;
+    color: #00bbff;
+    border: 1px solid #00bbff;
+    padding: 8px 20px;
+    border-radius: 10px;
+    font-family: inherit;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button-btn:hover, .special-button-btn:hover {
+    background: #00bbff;
+    color: #1a0033;
+}
+
+.special-button-btn {
+    border-color: #ff00ff;
+    color: #ff00ff;
+}
+
+.special-button-btn:hover {
+    background: #ff00ff;
+    color: #1a0033;
+}
+
+.characteristic {
+    background: #1a0033;
+    padding: 30px;
+    margin: 40px 20px;
+    border-radius: 15px;
+    border: 2px solid #00bbff;
+}
+.special-card-text-text{
+    color: aliceblue;
+}
+
+.card-text-text{
+    color: aliceblue;
+
+}
+.why-love {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #00bbff;
+}
+
+.why-love b {
+    color: rgb(235, 252, 3);
+}
+
+.because {
+    list-style: none;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.because li {
+    background: #8ea9fbc1;
+    color: rgb(235, 252, 3);
+    margin: 10px 0;
+    padding: 12px 20px;
+    border-radius: 10px;
+    border-left: 4px solid #00bbff;
+}
+
+.highlight {
+    background: rgba(0, 187, 255, 0.482);
+    margin: 40px 20px;
+    padding: 30px;
+    text-align: center;
+    border-radius: 15px;
+    border: 1px dashed #00bbff;
+}
+
+.highlight p {
+    font-size: 18px;
+    color: #1a0033;
+    font-weight: bold;
+}
+
+.footer {
+    background: #1a0033;
+    text-align: center;
+    padding: 30px;
+    margin-top: 40px;
+    border-top: 3px solid #00bbff;
+}
+
+.footer-div h4 {
+    color: #00bbff;
+    margin-bottom: 15px;
+}
+
+.footer-div hr {
+    width: 100px;
+    margin: 15px auto;
+    border: none;
+    height: 2px;
+    background: #00bbff;
+}
+
+.footer-div p {
+    color: rgb(235, 252, 3);
+    font-size: 12px;
+}
